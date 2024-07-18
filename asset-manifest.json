@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/brianna-p/static/css/main.1b6e6870.css",
+    "main.js": "/brianna-p/static/js/main.b3926b9b.js",
+    "static/js/453.ed3810f9.chunk.js": "/brianna-p/static/js/453.ed3810f9.chunk.js",
+    "static/media/hacklahoma2023.jpg": "/brianna-p/static/media/hacklahoma2023.98228d7e8901217b57d5.jpg",
+    "static/media/firstOUgame.jpg": "/brianna-p/static/media/firstOUgame.162af38b7c14b5faf528.jpg",
+    "static/media/Designer.jpeg": "/brianna-p/static/media/Designer.4ce84a568247ba934eee.jpeg",
+    "static/media/github_icon.png": "/brianna-p/static/media/github_icon.fb2eb307672051530d4d.png",
+    "static/media/linkedin_icon.jpeg": "/brianna-p/static/media/linkedin_icon.86c0141b96ff9dac5595.jpeg",
+    "static/media/email_icon.png": "/brianna-p/static/media/email_icon.1c1b81f9a4eb9a6c4105.png",
+    "index.html": "/brianna-p/index.html",
+    "main.1b6e6870.css.map": "/brianna-p/static/css/main.1b6e6870.css.map",
+    "main.b3926b9b.js.map": "/brianna-p/static/js/main.b3926b9b.js.map",
+    "453.ed3810f9.chunk.js.map": "/brianna-p/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b6e6870.css",
+    "static/js/main.b3926b9b.js"
+  ]
+}
