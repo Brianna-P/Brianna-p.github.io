@@ -1,9 +1,12 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
+import Header from './Header';
 
 function Resume() {
   return (
+    <>
+    <Header />
     <div className="container">
       <div className="mt-4 mb-4">
         <Button variant="secondary" href="resume.pdf" download>Download Resume</Button>
@@ -19,6 +22,7 @@ function Resume() {
         </object>
       </div>
     </div>
+    </>
   );
 }
 

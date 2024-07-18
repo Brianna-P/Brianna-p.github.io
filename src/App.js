@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Router>
-      <Header />
+  
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/contact" element={<Contact />} />

@@ -1,10 +1,13 @@
 import React from 'react';
-import { BrowserRouter as Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './Header';
 
 
 function Portfolio() {
     return (
+      <>
+      <Header />
       <div className="container">
         <h2>Portfolio and Resume</h2>
         <p>
@@ -44,6 +47,7 @@ function Portfolio() {
 
           </div>
       </div>
+      </>
     );
   }
 

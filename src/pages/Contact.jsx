@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import emailIcon from '../assets/email_icon.png';
 import linkedInIcon from '../assets/linkedin_icon.jpeg';
 import githubIcon from '../assets/github_icon.png';
+import Header from './Header';
 
 
 function Contact() {
@@ -60,6 +61,8 @@ function Contact() {
   };*/
 
   return (
+    <>
+    <Header />
     <div>
       <section className="container py-3">
         <div className="row justify-content-center mb-5 mt-5 text-center">
@@ -102,6 +105,7 @@ function Contact() {
         </form>*/}
       </section> 
   </div> 
+  </>
   );
 }
 
