@@ -10,7 +10,6 @@ function About() {
 
   return (
     <>
-    <Header />
     <div>
       <section className="about-section">
         <div className="container">

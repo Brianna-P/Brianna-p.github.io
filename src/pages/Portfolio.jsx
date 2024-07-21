@@ -7,7 +7,6 @@ import Header from './Header';
 function Portfolio() {
     return (
       <>
-      <Header />
       <div className="container">
         <h2>Portfolio and Resume</h2>
         <p>

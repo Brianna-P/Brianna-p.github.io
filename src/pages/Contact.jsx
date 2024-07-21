@@ -62,7 +62,6 @@ function Contact() {
 
   return (
     <>
-    <Header />
     <div>
       <section className="container py-3">
         <div className="row justify-content-center mb-5 mt-5 text-center">

@@ -6,7 +6,6 @@ import Header from './Header';
 function Resume() {
   return (
     <>
-    <Header />
     <div className="container">
       <div className="mt-4 mb-4">
         <Button variant="secondary" href="resume.pdf" download>Download Resume</Button>
