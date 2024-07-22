@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import emailIcon from '../assets/email_icon.png';
 import linkedInIcon from '../assets/linkedin_icon.jpeg';
 import githubIcon from '../assets/github_icon.png';
-import Header from './Header';
 
 
 function Contact() {

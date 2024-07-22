@@ -3,7 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Carousel } from "react-bootstrap";
 import ImageService from "../lib/services/Image.service";
 import "../App.css";
-import Header from "./Header";
 
 function About() {
   const images = ImageService.getAllImages();
