@@ -1,5 +1,5 @@
 import "./App.css";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -11,15 +11,15 @@ import Header from "./pages/Header";
 function App() {
   return (
     <>
-      <Router>
+      <HashRouter>
       <Header />
         <Routes>
-          <Route path="/#/" element={<About />} />
-          <Route path="/#/contact" element={<Contact />} />
-          <Route path="/#/portfolio" element={<Portfolio />} />
-          <Route path="/#/resume" element={<Resume />} />
+          <Route path="/" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
-      </Router>
+      </HashRouter>
       <Footer />
     </>
   );

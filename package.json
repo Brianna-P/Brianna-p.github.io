@@ -18,7 +18,7 @@
     "react-responsive-carousel": "^3.2.23",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://brianna-p.github.io/",
+  "homepage": "https://brianna-p.github.io/#",
   "scripts": {
     "deploy": "npm run build && gh-pages -d build",
     "start": "react-scripts start",
