@@ -12,7 +12,7 @@ const getAllImages = () => {
 
 
 
-    return [image1, image2];
+    return [image1, image2, image3];
 };
 
 export default {getAllImages};
