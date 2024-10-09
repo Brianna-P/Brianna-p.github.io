@@ -9,48 +9,69 @@ function About() {
 
   return (
     <>
-    <div>
-      <section className="about-section">
-        <div className="container">
-          <h2>About Me:</h2>
-          <p>
-            Hello! My name is Brianna Patten. I am a current student at the
-            University of Oklahoma, where I'm studying to get my Bachelor's in
-            Computer Science and my Master's in AI/Machine Learning and Data
-            Analytics.
-          </p>
-          <p>
-            In my free time I develop personal projects, play video games, and
-            hang out with my friends. My current interests in the CS world are
-            new machine learning algorithms, automation, and the impact of AI on
-            economic regulation. Thanks for visiting my page!
-          </p>
-        </div>
-      </section>
+      <div>
+        <section className="about-section">
+          <div className="container">
+            <h2 style={{ marginTop: "60px"}}>Hi, I'm </h2>
+            <h3>Brianna Patten.</h3>
+            <p className="mb-5 ">
+              I am a current 3rd year at the University of Oklahoma, where I'm studying to get my Bachelor's in
+              Computer Science and my Master's in AI and Machine Learning.
+            </p>
+            <div className="row" style={{ marginTop: "120px", alignItems: "center" }}>
+              <div className="col-sm-3">
+                <div className="button-container" style={{ display: 'flex', flexDirection: 'column', height: '350px' }}>
+                  <button
+                   className="btn btn-primary rounded"
+                    style={{ backgroundColor: '#007bff', border: 'none', width: '100%', height: '130px' }}
+                    onClick={() => window.open(`${window.location.origin}/#/contact`, "_blank")}
+                    >
+                    
+                    Contact + Learn More
+                  </button>
+                  
+                  <button 
+                  className="btn btn-primary rounded" 
+                  style={{ backgroundColor: '#28a745', border: 'none', width: '100%', height: '130px' }}
+                  onClick={() => window.open(`${window.location.origin}/#/portfolio`, "_blank")}
+                  >
+                    Portfolio + Resume
+                  </button>
 
-      <section className="bg-dark py-5">
-        <div className="container" style={{ maxWidth: "600px" }}>
-          <Carousel>
-            {images.map((image, index) => (
-              <Carousel.Item key={index}>
-                <img
-                  className="d-block w-100"
-                  src={image.image}
-                  alt={image.title}
-                  style={{ height: "300px", objectFit: "cover" }}
-                />
-                <Carousel.Caption>
-                 <h3 style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.5)' }}>{image.title}</h3>
-
-                </Carousel.Caption>
-              </Carousel.Item>
-            ))}
-          </Carousel>
-        </div>
-      </section>
-
-
-    </div>
+                  <button href="https://github.com/your-username" 
+                  className="btn btn-primary rounded" 
+                  style={{ backgroundColor: '#17a2b8', border: 'none', width: '100%', height: '130px' }}
+                  onClick={() => window.open("https://github.com/Brianna-P", "_blank")}
+                  >
+                    Github
+                  </button>
+             
+                </div>
+              </div>
+              <div className="col-sm-9 mb-5">
+                <Carousel style={{ width: "800px", height: "350px", marginLeft: '50px' }}>
+                  {images.map((image, index) => (
+                    <Carousel.Item key={index}>
+                      <img
+                        className="d-block w-100"
+                        src={image.image}
+                        alt={image.title}
+                        style={{ height: "400px", objectFit: "cover", borderRadius: '10px',}} 
+                        
+                      />
+                      <Carousel.Caption>
+                        <h3 style={{ fontSize: "2rem", fontWeight: "bold", color: "#ffffff" }}>
+                          {image.title}
+                        </h3>
+                      </Carousel.Caption>
+                    </Carousel.Item>
+                  ))}
+                </Carousel>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </>
   );
 }

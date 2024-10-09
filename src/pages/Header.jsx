@@ -1,37 +1,37 @@
 import React from "react";
-
+import logo from '../assets/B.png';
 
 function Header() {
   return (
     <div>
-      <header>
-        <div className="container">
-          <h1>Welcome to my Webpage!</h1>
-        </div>
-      </header>
-
       <nav className="navbar navbar-expand-lg navbar-dark" style={{
-          backgroundColor: "#016463",
+          backgroundColor: "#fad8cb",
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          padding: '20px 90px', // Make the navbar skinnier
+          fontFamily: '"Helvetica Neue", Arial, sans-serif', // Modern font
         }}>
-        <div className="container">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-              <a className="nav-link" href="/#">
-                Home
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/#/contact">
-                Contact
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/#/portfolio">
-                Portfolio & Resume
-              </a>
-            </li>
-          </ul>
+        <div style={{ display: 'flex', alignItems: 'center' }}>
+          <img src={logo} alt="OU Logo" style={{ height: "50px"}} /> {/* Logo on the left */}
         </div>
+        <ul className="navbar-nav mb-2 mb-lg-0" style={{ marginLeft: 'auto', display: 'flex', gap: '10px' }}> {/* Aligns nav items to the right */}
+          <li className="nav-item">
+            <a className="nav-link" href="/#" style={{ color: "#2f4f4f", fontWeight: '500' }}>
+              Home
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/#/contact" style={{ color: "#2f4f4f", fontWeight: '500' }}>
+              Contact
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/#/portfolio" style={{ color: "#2f4f4f", fontWeight: '500' }}>
+              Portfolio & Resume
+            </a>
+          </li>
+        </ul>
       </nav>
     </div>
   );
