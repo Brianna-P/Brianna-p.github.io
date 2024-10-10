@@ -18,7 +18,7 @@ function About() {
               I am a current 3rd year at the University of Oklahoma, where I'm studying to get my Bachelor's in
               Computer Science and my Master's in AI and Machine Learning.
             </p>
-            <div className="row" style={{ marginTop: "120px", alignItems: "center" }}>
+            <div className="row" style={{alignItems: "center" }}>
               <div className="col-sm-3">
                 <div className="button-container" style={{ display: 'flex', flexDirection: 'column', height: '350px' }}>
                   <button
@@ -32,7 +32,7 @@ function About() {
                   
                   <button 
                   className="btn btn-primary rounded" 
-                  style={{ backgroundColor: '#28a745', border: 'none', width: '100%', height: '130px' }}
+                  style={{width: '100%', height: '130px' }}
                   onClick={() => window.open(`${window.location.origin}/#/portfolio`, "_blank")}
                   >
                     Portfolio + Resume
@@ -40,7 +40,7 @@ function About() {
 
                   <button href="https://github.com/your-username" 
                   className="btn btn-primary rounded" 
-                  style={{ backgroundColor: '#17a2b8', border: 'none', width: '100%', height: '130px' }}
+                  style={{width: '100%', height: '130px' }}
                   onClick={() => window.open("https://github.com/Brianna-P", "_blank")}
                   >
                     Github
@@ -49,7 +49,7 @@ function About() {
                 </div>
               </div>
               <div className="col-sm-9 mb-5">
-                <Carousel style={{ width: "800px", height: "350px", marginLeft: '50px' }}>
+                <Carousel style={{ width: "auto", height: "350px"}}>
                   {images.map((image, index) => (
                     <Carousel.Item key={index}>
                       <img
@@ -60,9 +60,9 @@ function About() {
                         
                       />
                       <Carousel.Caption>
-                        <h3 style={{ fontSize: "2rem", fontWeight: "bold", color: "#ffffff" }}>
+                        <h4>
                           {image.title}
-                        </h3>
+                        </h4>
                       </Carousel.Caption>
                     </Carousel.Item>
                   ))}

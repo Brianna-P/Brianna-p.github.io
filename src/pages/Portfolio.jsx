@@ -2,6 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
+import ipalImage from '../assets/IPAL.jpeg';
+import kyperImage from '../assets/KYPer Logo.png';
+import agriImage from '../assets/farm.jpeg';
+
 
 function Portfolio() {
   return (
@@ -28,7 +32,7 @@ function Portfolio() {
             <div className="col-md-4">
               <div className="card mb-4 gradient-card">
                 <img
-                  src="https://via.placeholder.com/400x200"
+                  src={ipalImage}
                   className="card-img-top"
                   alt="I:PAL"
                 />
@@ -40,7 +44,7 @@ function Portfolio() {
                     their corresponding phoneme, allowing for real-time feedback of word pronunciation.
                   </p>
                   <a
-                    href="https://github.com/logbasem/Software_Engineering"
+                    href="https://github.com/lucasBent/hackmit"
                     className="btn btn-primary"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -54,7 +58,7 @@ function Portfolio() {
             <div className="col-md-4">
               <div className="card mb-4 gradient-card">
                 <img
-                  src="https://via.placeholder.com/400x200"
+                  src={agriImage}
                   className="card-img-top"
                   alt="Agri:AI; SEM Analysis"
                 />
@@ -76,7 +80,7 @@ function Portfolio() {
             <div className="col-md-4">
               <div className="card mb-4 gradient-card">
                 <img
-                  src="https://via.placeholder.com/400x200"
+                  src={kyperImage}
                   className="card-img-top"
                   alt="KYPer: Know Your Producer"
                 />

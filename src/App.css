@@ -4,7 +4,15 @@
     --main: #ffdab9;
 }
 
-
+.navbar{
+    background-color: #fad8cb !important;
+    padding: 20px 90px !important;
+    font-family: "Helvetica Neue", Arial, sans-serif !important; 
+}
+.nav-link{
+    color: #2f4f4f !important; 
+    font-weight: 500!important;
+}
 .container {
     min-height: 68vh; 
 }
@@ -94,6 +102,12 @@ header h1 {
     color: var(--dark);
     padding-right: 10px;
 }
+.about-section h4{
+    font-size: 2rem;
+    font-weight: bold;
+     color: #ffffff !important;
+
+}
 
 .about-section h5 {
     font-size: 25px;
@@ -101,6 +115,38 @@ header h1 {
     padding-bottom: 20px;
 
 }
+.about-section .row {
+    margin-top: 120px; 
+  }
+@media (max-width: 576px) {
+    .carousel img {
+      height: 250px; 
+      padding-top: 30px;
+    }
+    .about-section h2,
+  .about-section h3,
+  .about-section h5 {
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto; 
+    display: block; 
+    margin-bottom: 0;
+  }
+  .about-section .row{
+
+    margin-top: 0;
+  }
+   
+    p{
+        text-align: center;
+        padding-bottom: 80px;
+    }
+    .about-section row {
+        margin-top:0;
+    }
+
+  }
+  
 .gradient-card {
     background: linear-gradient(to top, #c27d76, #ffdab9); 
     color: var(--light);

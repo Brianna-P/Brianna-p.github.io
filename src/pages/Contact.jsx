@@ -27,9 +27,10 @@ function Contact() {
 
   return (
     <>
+    
       <div className="about-section">
         <section className="container py-3">
-          <div className="row justify-content-between mt-5">
+          <div className="row justify-content-between mt-0 mt-md-5 mt-lg-5 mt-xl-5">
             <div className="col-md-5 text-start">
               <h5> (A Litte More) About Me</h5>
               <p>

@@ -1,38 +1,31 @@
 import React from "react";
 import logo from '../assets/B.png';
+import "bootstrap/dist/css/bootstrap.min.css"; // Ensure Bootstrap CSS is imported
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap'; // Import the necessary Bootstrap components
 
 function Header() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark" style={{
-          backgroundColor: "#fad8cb",
-          display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          padding: '20px 90px', // Make the navbar skinnier
-          fontFamily: '"Helvetica Neue", Arial, sans-serif', // Modern font
-        }}>
+      <Navbar expand="lg" className="navbar-dark" style={{ backgroundColor: "#fad8cb" }}>
         <div style={{ display: 'flex', alignItems: 'center' }}>
-          <img src={logo} alt="OU Logo" style={{ height: "50px"}} /> {/* Logo on the left */}
+          <img src={logo} alt="OU Logo" style={{ height: "50px" }} />
         </div>
-        <ul className="navbar-nav mb-2 mb-lg-0" style={{ marginLeft: 'auto', display: 'flex', gap: '10px' }}> {/* Aligns nav items to the right */}
-          <li className="nav-item">
-            <a className="nav-link" href="/#" style={{ color: "#2f4f4f", fontWeight: '500' }}>
-              Home
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/#/contact" style={{ color: "#2f4f4f", fontWeight: '500' }}>
-              Contact
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/#/portfolio" style={{ color: "#2f4f4f", fontWeight: '500' }}>
-              Portfolio & Resume
-            </a>
-          </li>
-        </ul>
-      </nav>
+        <Navbar.Toggle aria-controls="ms-auto basic-navbar-nav" />
+        <Navbar.Collapse id=" basic-navbar-nav">
+          <Nav className="ms-auto" >
+            <div className="d-lg-none" align="end"> 
+                <NavDropdown.Item href="/#">Home</NavDropdown.Item>
+                <NavDropdown.Item href="/#/contact">Contact</NavDropdown.Item>
+                <NavDropdown.Item href="/#/portfolio">Portfolio & Resume</NavDropdown.Item>
+            </div>
+            <div className="d-none d-lg-flex" style={{ gap: '10px' }}> 
+              <Nav.Link href="/#" style={{ color: "#2f4f4f", fontWeight: '500' }}>Home</Nav.Link>
+              <Nav.Link href="/#/contact" style={{ color: "#2f4f4f", fontWeight: '500' }}>Contact</Nav.Link>
+              <Nav.Link href="/#/portfolio" style={{ color: "#2f4f4f", fontWeight: '500' }}>Portfolio & Resume</Nav.Link>
+            </div>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
     </div>
   );
 }
