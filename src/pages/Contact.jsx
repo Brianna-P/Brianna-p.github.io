@@ -43,9 +43,9 @@ function Contact() {
 
             <div className="col-md-5 text-center">
               <h5>Looking to get in contact with me? Select an option below! Contact form coming soon{loadingText}</h5>
-              <h5 style={{fontSize: '1.2em' }}>In the meantime, select a button below to access my related links.</h5>
+              <h5 style={{fontSize: '1.2rem' }}>In the meantime, select a button below to access my related links.</h5>
 
-              <div className="row">
+              <div className="row row2">
                 <div className="col text-center">
                   <span className="link" onClick={copyEmailToClipboard}>
                     <img src={emailIcon} alt="Email" className="rounded-circle img-fluid w-50 h-auto mt-2" />
