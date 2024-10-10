@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.64197cd6.css",
-    "main.js": "/static/js/main.fdbfeab6.js",
+    "main.css": "/static/css/main.1f71f109.css",
+    "main.js": "/static/js/main.84901ae1.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
     "static/media/intern.jpg": "/static/media/intern.500afc5e4103bcdfd758.jpg",
     "static/media/hacklahoma2023.jpg": "/static/media/hacklahoma2023.98228d7e8901217b57d5.jpg",
     "static/media/firstOUgame.jpg": "/static/media/firstOUgame.162af38b7c14b5faf528.jpg",
     "static/media/B.png": "/static/media/B.346c010d0d7ed7d1d12a.png",
+    "static/media/IPAL.jpeg": "/static/media/IPAL.3fc2f35a2fa276ceaacd.jpeg",
     "static/media/resume.pdf": "/static/media/resume.a17816b66ed124316a87.pdf",
     "static/media/github_icon.png": "/static/media/github_icon.fb2eb307672051530d4d.png",
+    "static/media/farm.jpeg": "/static/media/farm.6892804600ab1823c278.jpeg",
     "static/media/linkedin_icon.jpeg": "/static/media/linkedin_icon.86c0141b96ff9dac5595.jpeg",
+    "static/media/KYPer Logo.png": "/static/media/KYPer Logo.65c19b3093ef1c4cd104.png",
     "static/media/email_icon.png": "/static/media/email_icon.1c1b81f9a4eb9a6c4105.png",
     "index.html": "/index.html",
-    "main.64197cd6.css.map": "/static/css/main.64197cd6.css.map",
-    "main.fdbfeab6.js.map": "/static/js/main.fdbfeab6.js.map",
+    "main.1f71f109.css.map": "/static/css/main.1f71f109.css.map",
+    "main.84901ae1.js.map": "/static/js/main.84901ae1.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64197cd6.css",
-    "static/js/main.fdbfeab6.js"
+    "static/css/main.1f71f109.css",
+    "static/js/main.84901ae1.js"
   ]
 }
