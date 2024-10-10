@@ -43,7 +43,7 @@ function Contact() {
 
             <div className="col-md-5 text-center">
               <h5>Looking to get in contact with me? Select an option below! Contact form coming soon{loadingText}</h5>
-              <h5 style={{fontSize: '1.2rem' }}>In the meantime, select a button below to access my related links.</h5>
+              <p className = "mb-md-5 mb-sm-0">In the meantime, select a button below to access my related links:</p>
 
               <div className="row row2">
                 <div className="col text-center">

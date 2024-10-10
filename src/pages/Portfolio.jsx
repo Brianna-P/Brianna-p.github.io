@@ -15,7 +15,7 @@ function Portfolio() {
           <h5 className="text-center" style={{ fontSize: '2.5rem' }}>
             Portfolio and Resume
           </h5>
-          <h5 className="text-center ms-5 me-5 mb-4" style={{ fontSize: '1.1rem', marginLeft: '50px', marginRight: '50px' }}>
+          <h5 className="text-center ms-5 me-5 mb-5" style={{ fontSize: '1.1rem', marginLeft: '50px', marginRight: '50px' }}>
             Here are some of the projects I've worked on in the past year. Click
             on the links to view more information about each project. Other
             projects can be found on my GitHub, or
@@ -28,7 +28,7 @@ function Portfolio() {
             </Link>
             .
           </h5>
-          <div className="row">
+          <div className="row row2">
             <div className="col-md-4">
               <div className="card mb-4 gradient-card">
                 <img
